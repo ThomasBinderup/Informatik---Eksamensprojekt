@@ -1,0 +1,147 @@
+#stage4PaymentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#stage4OuterContainer {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+}
+
+#stage4Container1, #stage4Container2 {
+    width: 100%;
+}
+
+#stage4Header, #stage4PriceHeader {
+    text-align: center;
+}
+
+.radioStage4Input {
+    height: 30px;
+    width: 30px;
+}
+
+.labelStage4 {
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+
+.labelContainerStage4 {
+    display: inline-block;
+}
+
+.innerInputStage4 {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.container1Stage4 {
+    margin-right: 10px;
+}
+
+.inputStage4 {
+    height: 30px;
+    width: 228px;
+    font-size: 20px;
+}
+
+.stage4Icons {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.stage4SmallHeader {
+    margin: 5px 0px;
+}
+
+.cardHoldersNameContainer {
+    margin-bottom: 10px;
+}
+
+.mobilepayLogo {
+    width: 150px;
+}
+
+.mobilepayBtn {
+    border-radius: 20px;
+    background-color: #5a77ff;
+    display: inline-block;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.mobilepayBtn:hover {
+    background-color: #3e61fe;
+}
+
+.googlepayLogo {
+    width: 100px;
+}
+
+.googlepayBtn {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 0.5px 0.5px rgb(81, 81, 81);
+    margin: 10px 0px;
+}
+
+.googlepayBtn:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.payBtn {
+    width: 200px;
+    background-color: rgb(253, 204, 68);
+    box-shadow: 0px 0px 1px 0.5px rgb(81, 81, 81);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.payBtn:hover {
+    background-color: rgb(241, 177, 0);;
+}
+
+.innerLabelStage4 {
+    font-weight: bold;
+}
+
+.bottomMarginStage4 {
+    margin-bottom: 50px;
+}
+
+.inputStage4UdløbsDato {
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+}
+
+.inputStage4UdløbsDato1 {
+    margin-right: 5px;
+}
+
+.mobilepaySmallLogo {
+    width: 40px;
+}
+
+.googlepaySmallLogo {
+    width: 50px;
+}

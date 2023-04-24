@@ -1,0 +1,237 @@
+#loginPageContentGrid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#loginPageContentGridHeader {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loginPageContentGridContainer {
+    height: auto;
+    width: 400px;
+    padding-top: 10px;
+}
+
+#opretBrugerForm input {
+    margin-bottom: 7px;
+    width: 380px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#opretBrugerForm {
+    padding-left: 5px;
+}
+
+#opretBrugerForm label {
+    font-weight: bold;
+}
+
+#telefonnummerSmallLabel {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.infoSymbol {
+    padding: 3px 7px 3px 7px;
+    background-color: #0078D7;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+    font-size: 10px;
+    position: relative;
+    left: 4px;
+    bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submitOpretBrugerForm {
+    width: 98%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 204, 68);
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#submitOpretBrugerForm:hover {
+    background-color: rgb(241, 177, 0);
+}
+
+#oauthOptions {
+    padding-top: 15px;
+}
+
+#orDivider::before, #orDivider::after {
+    content: "";
+    display: inline-block;
+    width: 152px;
+    border-top: 1px solid rgb(171, 171, 171);
+    position: relative;
+    bottom: 5px;
+}
+
+#orDivider {
+    padding: 0 0 0 10px;
+}
+
+#oauthGoogleLogo, #oauthFacebookLogo {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 12px;
+    padding-right: 3px;
+}
+
+#oauthGoogleText, #oauthFacebookText {
+    font-size: 18px;
+    display: inline-block;
+}
+
+#oauthGoogleBtnOpret, #oauthFacebookBtnOpret {
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 1px 1px black;
+    border-radius: 15px;
+}
+
+#oauthGoogleBtnOpret:hover, #oauthFacebookBtnOpret:hover {
+    cursor: pointer;
+    background-color: rgb(215, 214, 214);
+}
+
+#visAdgangskode {
+    width: 20px !important;
+    margin: 0px !important;
+}
+
+#visAdgangskodeText {
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+
+.elementIsTaken {
+    color: red;
+    position: relative;
+    top: -7px;
+    font-size: 15px;
+}
+
+.tooltipContainer {
+    position: relative;
+    z-index: 999;
+    top: -12px;
+    left: -17px;
+}
+
+.tooltipText {
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 60px;
+    max-height: 60px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    top: -12px;
+    left: 33px;
+
+}
+
+.tooltipArrow {
+    font-size: 50px;
+    position: absolute;
+    top: -8px;
+    left: 5px;
+    color: black;
+}
+
+.tooltipTitle {
+    font-weight: bold;
+    color: white;
+}
+
+#infoSymbolID1:hover #tooltipContainerID1, #infoSymbolID2:hover #tooltipContainerID2, #infoSymbolID3:hover #tooltipContainerID3, #infoSymbolID4:hover #tooltipContainerID4, #infoSymbolID5:hover #tooltipContainerID5 {
+    visibility: visible;
+    cursor: help;
+}
+
+.tooltipContainer {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 450px) {
+    #opretBrugerForm input {
+        margin-bottom: 7px;
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        
+    }
+
+    #loginPageContentGridContainer {
+        position: relative;
+        left: 23%;
+
+    }
+
+    #loginPageContentGridHeader {
+        position: relative;
+    }
+
+    #submitOpretBrugerForm {
+        width: 200px;
+        position: relative;
+        left: -33.5%;
+        top: 30px;
+    }
+
+    #oauthOptions {
+        position: relative;
+        top: 30px;
+        left: 100px;
+        width: 250px;
+        
+    }
+
+    #orDivider::before, #orDivider::after {
+        width: 60px;
+    }
+
+
+    #oauthGoogleBtnOpret, #oauthFacebookBtnOpret {
+        width: 50%;
+        
+    }
+
+    #oauthGoogleText {
+        display: none;
+    }
+
+    #oauthFacebookText {
+        display: none;
+    }
+    
+    #oauthLogosOpret {
+        position: relative;
+        left: 15%;
+    }
+
+
+}

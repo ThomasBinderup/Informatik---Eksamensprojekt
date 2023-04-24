@@ -1,0 +1,104 @@
+
+#gridContainerPayments {
+    display: grid;
+    grid-template-columns: repeat(4, 209px);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+    "title title title title"
+    "paymentsNeeded paymentsAmountPaid paymentsRight transactionHistory"
+    "paymentsNeeded paymentsAmountPaid paymentsRight transactionHistory"
+    "billingDetails billingDetails billingDetails transactionHistory"
+    "billingDetails billingDetails billingDetails transactionHistory"
+    "billingDetails billingDetails billingDetails transactionHistory"
+    "billingDetails billingDetails billingDetails transactionHistory";
+
+}
+
+.gridItemPayments {
+    display: flex;
+}
+
+.gridItemPayments p {
+    margin: 0px;
+    font-size: 48px;
+    align-self: center;
+}
+
+#paymentsTitle {
+    grid-area: title;
+    align-self: center;
+    justify-self: center;
+
+}
+
+/* Payments needed */
+
+#paymentsNeeded  {
+    grid-area: paymentsNeeded;
+}
+
+
+
+/* Payments amount paid */
+
+#paymentsAmountPaid {
+    grid-area: paymentsAmountPaid;
+}
+
+
+/* Payments right */
+
+#paymentsRight {
+    grid-area: paymentsRight;
+}
+
+/* Both of amount and needed */
+#paymentsNeeded, #paymentsAmountPaid, #paymentsRight {
+    background-color: rgb(241, 241, 241);
+    width: 190px;
+    height: 125px;
+    justify-self: center;
+    align-self: top;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paymentsGrayBox {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(221, 221, 221);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*
+
+.paymentsGrayBox h3 {
+    align-self: center;
+
+} Hvorfor er det, at man nogle gange ikke kan bruge align-self og justify-self men man kan godt bruge justify-content?*/
+
+
+
+
+/* Transaction history */
+
+#transactionHistory {
+    grid-area: transactionHistory;
+    background-color: rgb(41, 235, 122);
+    width: 100%;
+    
+}
+
+
+/* Billing details */
+
+#billingDetails {
+    grid-area: billingDetails;
+    background-color: rgb(0, 195, 255);
+}

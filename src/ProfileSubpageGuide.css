@@ -1,0 +1,11 @@
+#flexContainerGuide {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+
+} 
+
+video {
+    border-radius: 15px;
+}

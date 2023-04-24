@@ -1,0 +1,72 @@
+#lineStage1, #lineStage2, #lineStage3 {
+    border-top: 2px solid black;
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    top: -18px;
+}
+
+#stage1Circle {
+    color: rgb(0, 119, 255);
+}
+
+.stages {
+    padding-bottom: 20px;
+    margin-left: 10px;
+    padding-top: 30px;
+    border-bottom: 1px solid black;   
+    padding-left: 10%;
+    width: 88%;
+}
+
+.circleStage {
+    font-size: 40px;
+}
+
+.stagesSymbolTextContainer {
+    position: relative;
+
+}
+
+.stagesText {
+    position: absolute;
+    width: auto;
+    font-family: 'roboto';
+}
+
+#stagesText1 {
+    top: -45px;
+    left: -25px;
+    color: blue;
+}
+
+#stagesText2 {
+    top: -45px;
+    left: -13px;
+}
+
+#stagesText3 {
+    top: -45px;
+    left: -17px;
+}
+
+#stagesText4 {
+    top: -45px;
+    left: -8px;
+}
+
+.stagesIcon1Stage2 {
+    color: rgb(0, 119, 255) !important;
+}
+
+.stagesText1Stage2 {
+    color: blue !important;
+}
+
+#stage3BlueCircle {
+    color: rgb(0, 119, 255);
+}
+
+.stage3BlueText {
+    color: blue !important
+}   

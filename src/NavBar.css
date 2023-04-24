@@ -1,0 +1,254 @@
+#body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#navBarContainer {
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 0 2px 1px black;
+    color: black;
+    z-index: 100;
+    font-family: 'roboto';
+}
+
+#leftBtns {
+    width: 25%;
+    display: inline-flex;
+    height: 100%; 
+    align-items: center;
+    font-size: 21.7px;
+
+}
+
+#rightBtns { /*47% */
+    width: calc(3vw + 460px);
+    height: 100%;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnL1 {
+    text-decoration: none;
+    color: black;
+}
+
+#btnR1, #btnR2, #rightBtns div {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 3% 3%;
+}
+
+#btnR1:hover, #btnR2:hover {
+    color: gray;
+}
+
+#btnR3 {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+    background-color: rgb(253, 204, 68);
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+}
+
+#btnR3:hover {
+    background-color: rgb(241, 177, 0);
+}
+
+#btnR4 {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+}
+
+#btnR4:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#logo {
+    height: 60px;
+    margin-top: 4px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#menu {
+    margin-left: calc(99vw - 260px);
+    font-size: 70px;
+    display: none;
+}
+
+#menu:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 80);
+}
+
+.showRightBtns {
+    display: inline;
+}
+
+.hideRightBtns {
+    display: inline;
+}
+
+@media screen and (max-width: 650px) { 
+    #rightBtns {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    #btnR1:hover, #btnR2:hover, #btnR3:hover, #btnR4:hover {
+        color: initial;
+        background-color: initial;
+    }
+
+    .showRightBtns {
+        display: initial;
+    }
+
+    .hideRightBtns {
+        display: none;
+    }
+
+    #menu {
+        display: initial;
+    }
+    #btnR1 {
+        padding: 0px;
+    }
+    
+    #btnR2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #btnR3 {
+        box-shadow: initial;
+        background-color: initial;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #btnR4 {
+        box-shadow: initial;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+
+    #navBarContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btnR1, #btnR2, #rightBtns div {
+        padding: 0px;
+        font-size: 20px;
+        padding: 8px 100vw;
+        cursor: pointer;
+    }
+
+    #btnR1:hover, #btnR2:hover, #rightBtns div:hover {
+        background-color: rgb(215, 214, 214);
+    }
+
+}
+
+#rightBtnsAuthorized {
+    float: right;
+    width: 640px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+}
+
+.btnRAuthorized {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin: 0 5px;
+}
+
+#btnR5Authorized {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5%;
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+}
+
+#btnR4Authorized, #btnR3Authorized { 
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5%;
+    background-color: rgb(253, 204, 68);
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+}
+
+#btnR3Authorized:hover, #btnR4Authorized:hover {
+    background-color: rgb(241, 177, 0);
+}
+
+#btnR5Authorized:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+#btnR1Authorized:hover, #btnR2Authorized:hover {
+    color: gray;
+}
+
+#btnR1Authorized {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 845px) {
+    .btnRAuthorized {
+        padding: 0 5px;
+        font-size: 20px;
+    }
+
+    #rightBtnsAuthorized {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #rightBtnsAuthorized {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .btnRAuthorized {
+        padding: 8px 100vw !important;
+        box-shadow: initial !important;
+        background-color: white !important;
+    }
+
+    .btnRAuthorized:hover {
+        background-color: gray !important;
+        color: black !important;
+        background-color: rgb(215, 214, 214) !important;
+    }
+}

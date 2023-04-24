@@ -1,0 +1,183 @@
+#homePageContentContainer {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+#searchBarContainer {
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: -25px;
+}
+
+.overskriftHeaderHPC {
+    margin: 5px 5px;
+}
+
+.imageHPC {
+    width: 250px;
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+}
+
+.imageContainerHPC {
+    display: inline-block;
+}
+
+.navnHPC, .beskrivelseHPC1, .beskrivelseHPC2 {
+    font-size: 17px;
+}
+
+.navnHPC, .beskrivelseHPC2 {
+    margin: 0px;
+}
+
+.beskrivelseHPC1 {
+    margin: 0px 0px 5px 0px;
+}
+
+.innerTimecapsuleContainerHPC {
+    display: flex;
+    height: 169px;
+    column-gap: 10px;
+}
+
+.item2ContainerHPC {
+    width: 100%;
+    padding-right: 8px;
+}
+
+.beskrivelseHPC1 {
+    display: inline-block;
+}
+
+#gridItemSearchBar {
+    height: 60px;
+}
+
+#gridItemMainContent {
+    height: auto;   
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 15px;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+
+.createGridItems {
+    background-color: white;
+    height: auto;
+    margin-top: 5px;
+    box-shadow: 0 0 1px 1px black;
+    border-radius: 5px;
+}
+
+.overskriftHeaderHPC {
+    font-size: 30px;
+}
+
+#searchBarInput {
+    height: 38px;
+    width: 300px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#searchIcon {
+    font-size: 40px;
+    position: relative;
+    top: 13px;
+    border: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+    background-color: lightgray;
+}
+
+#searchIcon:hover {
+    cursor: pointer;
+    background-color: rgb(203, 203, 203);
+    box-shadow: 0 0px 1px 0.10px black;
+}
+
+#filterIcon {
+    font-size: 40px;
+    position: relative;
+    top: 11px;
+}
+
+#filterIcon:hover {
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.createImage {
+    width: 100px;
+}
+
+.createName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.createQuestion {
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+    #gridItemMainContent {
+        height: auto;   
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        padding-left: 20px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #gridItemMainContent {
+        height: auto;   
+        grid-template-columns: auto;
+        column-gap: 20px;
+        padding-left: 20px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #gridItemMainContent {
+        height: auto;   
+        grid-template-columns: auto;
+        column-gap: 20px;
+        padding-left: 20px;
+        padding-right: 35px;
+    }
+
+    #searchBarInput {
+        height: 38px;
+        width: 190px;
+        border-radius: 15px 0px 0px 15px;
+        border: 1px solid black;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .innerTimecapsuleContainerHPC {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+
+    .imageHPC {
+        border-radius: 5px;
+    }
+
+    #searchBarContainer {
+        left: -10px;
+    }
+}
+

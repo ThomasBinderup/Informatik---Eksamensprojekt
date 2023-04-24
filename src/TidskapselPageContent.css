@@ -1,0 +1,793 @@
+body {
+    font-family: 'roboto';
+}
+
+#breadcrumbNavigationTPC {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backwardsTPC {
+    font-size: 45px;
+    position: relative;
+    top: -5px;
+}
+
+#innerBreadTPC {
+    position: relative;
+    top: -20px;
+}
+
+.stage3Question {
+    font-size: 19px;
+}
+
+#skalBliveInformeretLabel {
+    font-weight: bold;
+}
+
+#contentContainerTPC {
+    width: 90vw;
+    background-color: white;
+    height: auto;
+    margin-left: 5%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    box-shadow: 0px 0px 2px 0.5px black;
+
+
+
+}
+
+#smallHeaderStage2Container {
+
+}
+
+#headerTPC {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+#smallHeaderStage2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+#smallActualHeaderStage2 {
+    width: 500px;
+    margin: 10px 0px;
+}
+
+#contentGridItem2TPC {
+    display: flex;
+    flex-direction: row;
+}
+
+#loginMitIDBtn {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 20px 70px;
+    cursor: pointer;
+    font-family: 'roboto';
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#loginMitIDBtn:hover {
+    background-color: rgb(2, 105, 224);
+}
+
+#stage1HeaderBekræftIdentitet {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#stage1SmallHeaderBekræftIdentitet {
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+}
+
+#mitIDContainerStage1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#innerContentGridItem1TPC {
+    width: 33.3%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 38px;
+}
+
+.labelStage2 {
+    font-weight: bold;
+}
+
+#innerTextTPC1 {
+    margin: 30px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 0 10px;
+    position: relative;
+}
+
+#innerTextHeaderTPC1 {
+    font-weight: bold;
+}
+
+#checkBoxAcceptTermsLabel {
+    width: 380px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#checkBoxAcceptTermsInput {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -15px;
+}
+
+#innerContentGridItem2TPC {
+    justify-content: center;
+}
+
+#headerS1 {
+    padding: 0;
+    margin: 5px;
+}
+
+#labelFileS1 {
+    background-color: rgba(235, 235, 235, 0.893);
+    height: 320px;
+    display: inline-flex;
+    justify-content: center;
+    width: 400px;
+    position: relative;
+    border: 1.5px dashed black;
+
+}
+
+#uploadImageBtn {
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 1px black;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#labelFileS1:hover {
+    cursor: pointer;
+    background-color: rgba(224, 224, 224, 0.893);
+
+}
+
+#headerS1 {
+    text-align: center;
+}
+
+#labelTextPassport {
+    position: absolute;
+    top: 230px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#inputFileS1 {
+    display: none;
+}
+
+#labelImagePassport {
+    height: 180px;
+    margin-top: 40px;
+    width: 280px;
+    box-shadow: 0 0 0.5px 0.5px black;
+    object-fit: cover;
+}
+
+#pasError {
+    position: absolute;
+    top: 297px;
+    left: 110px;
+    color: red;
+}
+
+#pasVerify {
+    position: absolute;
+    color: green;
+    top: 255px;
+    left: 280px;
+    font-size: 30px;
+}
+
+#nextBtnStage1 {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    box-shadow: 0 1px 1px 1px black;
+    border-radius: 5px;
+}
+
+.nextBtnStage1NotAllowed:hover {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.nextBtnStage1IsAllowed:hover {
+    cursor: pointer;
+    opacity: 1 !important;
+    background-color: blue !important;
+}
+
+#switchIdentificationOptions {
+    display: flex;
+    flex-direction: row;
+}
+
+.identicationOption {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 1px black;
+    cursor: pointer;
+}
+
+.ellerTextTPC {
+    position: relative;
+    top: 10px;
+}
+
+#identicationOption1 {
+    background-color: rgb(201, 201, 201);
+}
+
+#imageStage2Label {
+    background-color: rgba(235, 235, 235, 0.893);
+    width: 200px;
+    height: 202px;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+}
+
+#imageStage2Label:hover {
+    background-color: rgba(224, 224, 224, 0.893);
+}
+
+#formStage2Container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#formStage2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    margin-top: 5px;
+    position: relative;
+}
+
+#formStage2 input {
+    height: 20px;
+    width: 250px;
+}
+
+
+
+#descriptionContainerStage2 {
+    position: relative;
+    top: 5px;
+}
+
+#overskriftContainerStage2 {
+    text-align: center;
+    position: relative;
+    left: -0px;
+}
+
+#overskriftContainerStage2 label {
+    text-align: center;
+    position: relative;
+    left: -318px;
+    font-size: 22px;
+}
+
+.textAndBtnImageStage2 {
+    text-align: center;
+}
+
+#overskriftContainerStage2 input {
+    width: 720px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#uploadImageBtnStage2 {
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px 1px black;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#efternavnContainerStage2 {
+    height: 30px;
+}
+
+#descriptionContainerStage2 textarea {
+    width: 515px;
+    height: 130px;
+}
+
+#descriptionContainerStage2 label {
+    width: 200px;
+}
+
+#efternavnLabelStage2 {
+    margin-left: 230px;
+}
+
+#efternavnInputStage2 {
+    margin-left: 5px;
+}
+
+#submitBtnStage2, #nextBtnStage3 {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    box-shadow: 0 1px 1px 1px black;
+    border-radius: 5px;
+}
+
+#nextBtnStage3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextBtnStage2NotAllowed:hover, .nextBtnStage3NotAllowed:hover {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.stages4BlueText {
+    color: blue;
+}
+
+.circleStage4 {
+    color: blue;
+}
+
+.nextBtnStage2IsAllowed:hover, .nextBtnStage3IsAllowed:hover {
+    cursor: pointer;
+    opacity: 1 !important;
+    background-color: blue !important;
+}
+
+#btnContainerStage2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#descriptionInputStage2 {
+    resize: none;
+}
+
+#imageStage2 {
+    width: 100%;
+    height: 100%;
+
+}
+
+#imageStage2Input {
+    display: none;
+}
+
+#uploadImageStage2Error {
+    position: absolute;
+    top: 205px;
+    color: red;
+}
+
+#gridStage3Container {
+    display: grid;
+    grid-template-columns: 18.4% auto;
+    width: 100%;
+    height: auto;
+}
+
+.gridStage3Item {
+    margin-top: 5px;
+}
+
+#stage3SmallHeader {
+    margin: 0px;
+    font-size: 30px;
+}
+
+#stage3FormContainer {
+    margin: 5px;
+}
+
+#stage3Pquestion1, #stage3Pquestion2 {
+    font-weight: bold;
+    
+}
+
+#stage3Pquestion2, #skalBliveInformeretLabel {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.marginBottom,
+#stage3Pquestion1 {
+    margin: 10px 0px 0px 0px;
+}
+
+#kontaktMulighedLabel {
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+}
+
+#stage3Form {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#stage3SelectOptions {
+    width: 220px;
+    height: 30px;
+}
+
+#chooseDateStage3 {
+    font-style: italic;
+}
+
+#optionPrivatStage3Text,
+#optionOffentligStage3Text {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.iconStage3 {
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+}
+
+#skalBliveInformeretContainer {
+    margin-left: 35px;
+}
+
+.kontaktMulighedText {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.personInformeresLabel, .labelTextStage3 {
+    font-weight: bold;
+}
+
+.addToListBtn {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: rgb(253, 204, 68);
+    box-shadow: 0 1px 1px 1px rgb(66, 66, 66);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addToListBtn:hover {
+    background-color: rgb(244, 190, 41);
+}
+
+#skalBliveInformeretTextStage3 {
+    display: inline-block;
+    font-size: 13px;
+}
+
+#textareaEmail,
+#textareaTelefonnummer {
+    font-size: 20px;
+    width: 350px;
+    display: inline-block;
+}
+
+.addedEmail {
+    display: inline-block;
+}
+
+.emailItemStage3,
+.telefonnummerItemStage3 {
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px 28px 5px 15px;
+    margin: 3px;
+    background-color: rgba(224, 224, 224, 0.893);
+}
+
+#emailListError,
+#emailListError2,
+#telefonnummerListError,
+#telefonnummerListError2 {
+    color: red;
+}
+
+#emailMulighedStage3,
+#telefonnummerMulighedStage3 {
+    margin: 0px 0px 5px 28px;
+}
+
+#tilføjEmailTPC,
+#tilføjTelefonnummerTPC {
+    font-weight: bold;
+}
+
+.closeSymbolStage3 {
+    font-size: 20px;
+    margin-left: 3px;
+    position: absolute;
+}
+
+.closeSymbolStage3:hover {
+    background-color: rgba(128, 128, 128, 0.253);
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+#mitIDLogo {
+    width: 150px;
+}
+
+#mitIDItemStage1 {
+    width: 400px;
+    font-family: 'roboto';
+}
+
+#borderStage1 {
+    border-bottom: 1px solid black;
+    width: 98%;
+    margin: 0px 5px;
+    margin-bottom: 5px;
+    opacity: 0.4;
+}
+
+#contactEmail {
+    text-decoration: underline;
+    position: relative;
+    top: 10px;
+}
+
+#stage3Date {
+    margin-top: 5px;
+    width: 215px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#navnInputVOK,
+#efternavnInputVOK {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#navnInputVOK {
+    margin-right: 5px;
+}
+
+#navnLabelVOK {
+    width: 215px;
+    display: inline-block;
+}
+
+#telefonnummerInputVOK,
+#emailInputVOK {
+    width: 413px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#personHeaderVOK {
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+#searchAdressInput {
+    width: 413px;
+    height: 20px;
+}
+
+#showAddressesContainer {
+    width: 418px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.311);
+    margin-left: 1.5px;
+    min-height: 0px;
+    max-height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 4;
+    background-color: white;
+}
+
+#showAddressesContainer::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+#showAddressesContainer::-webkit-scrollbar-thumb {
+    background: rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+.displayIndividualAddress {
+    display: inline-block;
+    padding: 5px;
+    width: 408px;
+    cursor: pointer;
+}
+
+.displayIndividualAddress:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+#addPersonBtn {
+    margin-top: 10px;
+    width: 419px;
+    height: 50px;
+    background-color: rgb(0, 119, 255);
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#addPersonBtn:hover {
+    background-color: rgb(0, 108, 232);
+}
+
+#addPersonFlexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#flexItem1PersonList {
+    width: 410px;
+    margin-left: 20px;
+}
+
+#flexItem1ScrollContainer {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 230px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    width: 410px;
+    border-radius: 5px;
+}
+
+#outerFlexItem1 {
+    position: relative;
+}
+
+#flexItem1ScrollContainer::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(235, 235, 235);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#flexItem1ScrollContainer::-webkit-scrollbar-thumb {
+    background: rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+#personListHeader {
+    margin: 0px 0px 15px 0px;
+}
+
+.addedPersonNumber {
+    text-align: center;
+    margin: 0px;
+    z-index: 3;
+}
+
+.addedPersonContainer {
+    width: 85px;
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#addPersonInnerContainer {
+    width: 425px;
+    position: relative;
+}
+
+.displayErrorVOK {
+    color: red;
+    font-size: 15px;
+}
+
+#efternavnErrorVOK {
+    position: absolute;
+    left: 215px;
+}
+
+.personInformation {
+    padding: 6px;
+    width: 46%;
+    display: inline-block;
+}
+
+.smallHeaderPersonInformation {
+    font-weight: bold;
+}
+
+#confirmListTelefonnummer, #confirmListEmail {
+    width: 360px;
+    height: 40px;
+    background-color: rgb(0, 114, 244);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#confirmListTelefonnummer:hover, #confirmListEmail:hover {
+    background-color: rgb(0, 99, 213);
+}
+
+.telefonnummerItemStage3Container {
+    display: inline-block;
+}
+
+#telefonnummerContainerAddedTPC {
+    width: 400px;
+}

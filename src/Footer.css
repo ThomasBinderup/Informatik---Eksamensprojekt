@@ -1,0 +1,121 @@
+#footerF {
+    display: grid;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+}
+
+#footerBoxHeader {
+    border-bottom: 2px solid black;
+    height: 50px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -5px 2px -4px black;
+}
+
+#socialMediaIcons {
+    width: 170px;
+    padding-left: 20px;
+}
+
+#socialMediaIcons img {
+    height: 40px;
+    width: 40px;
+    padding: 2.5px 5px 0px 5px;
+}
+
+#footerBoxContainer {
+    padding-top: 15px;
+    height: 230px;
+    display: flex;
+    width: 97.5%;
+}
+
+#footerBoxVirksomhed {
+    min-width: 190px;
+}
+
+#socialMediaText {
+    margin-left: 7px;
+}
+
+.footerBox {
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+#footerBoxKontaktOs {
+    min-width: 190px;
+}
+
+.footerBoxText {
+    padding-left: 15px;
+
+}
+
+.titelFooter {
+    display: inline;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.contactInformationIcons {
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width: 650px) { 
+    #footerBoxContainer {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: auto auto;
+        position: relative;
+        top: -80px;
+    }
+
+    .footerBox {
+        width: 50vw;
+    }
+
+    #footerF {
+        height: 450px;
+    
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    #footerBoxContainer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -250px;
+        row-gap: 20px;
+    }
+
+    
+
+    .footerBox {
+        width: 100vw;
+        
+    }
+
+    #footerF {
+        height: 800px;
+    
+    }
+
+    #footerBoxHeader {
+        display: flex;
+        flex-direction: column;
+        border: initial;
+    }
+
+    #footerBoxVirksomhed {
+        border-top: 2px solid black;
+        padding-top: 5px;
+    }
+
+}
